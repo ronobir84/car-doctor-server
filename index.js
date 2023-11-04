@@ -47,7 +47,7 @@ async function run() {
 
             const options = {
                 // Include only the `title` and `imdb` fields in each returned document
-                projection: { title: 1, price: 1, service_id: 1, },
+                projection: { title: 1, price: 1, service_id: 1, img:1 },
             };
 
 
